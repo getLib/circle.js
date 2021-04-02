@@ -39,8 +39,14 @@ You need to specify the width `data-width` and height `data-height` of each imag
 </div>
 ```
 ### Add your canvas
-After you will place your canvas block `canvas #circle3dCanvas`. Your 3D gallery will be print there.
+Then you will place your canvas block `canvas #circle3dCanvas`. Your 3D gallery will be print there.
 You can define the background-color in the `data-background` parameter.
 ```html
 <canvas id="circle3dCanvas" data-background="#fff"></canvas>
+```
+Then, define your canvas style. You can do what you want with this block.
+For responsive size, you need to add `!important` below height and width.<br/>
+Exemple : 
+```css
+#circle3dCanvas{height:40vw !important;width:90vw !important;}
 ```
