@@ -27,4 +27,3 @@ Transform a simple images list in a 3D gallery. No complex parameter, no js modi
 <p>You can also directly download lightgallery from GitHub.</p>
 <h2>Create your 3D Gallery</h2>
 <p>First of all create the images list. Create a div #circle3dImg and add all your image in.</p>
-`test`
