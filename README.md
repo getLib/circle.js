@@ -22,6 +22,6 @@ Circle.js is based on THREE JS.
 <ul>
   <li>SCRIPT : https://cdn.jsdelivr.net/gh/getLib/circle.js@e50cd6ba5471acdb25a098038998fc228b55aa05/circle.min.js</li>
   <li>CSS : https://cdn.jsdelivr.net/gh/getLib/circle.js@e50cd6ba5471acdb25a098038998fc228b55aa05/circle.css</li>
-
+</ul>
 <h3>Download from GitHub</h3>
 <p>You can also directly download lightgallery from GitHub.</p>
