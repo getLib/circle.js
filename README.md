@@ -43,7 +43,7 @@ You need to specify the original width `data-width` and original height `data-he
 ```
 ### 2) Add your 3D canvas
 Then you will place your canvas block `canvas #circle3dCanvas`. Your 3D gallery will be print there.
-You can place it where you want in page.
+You can place it where you want in your page.
 Change the background-color with the `data-background` parameter.
 ```html
 <canvas id="circle3dCanvas" data-background="#fff"></canvas>
