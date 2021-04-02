@@ -16,7 +16,7 @@
 
 	function init(){
 
-		gallerie3dCanvas = document.querySelector("#gallerie3d");
+		gallerie3dCanvas = document.querySelector("#circle3dCanvas");
 		canvasWidth = gallerie3dCanvas.clientWidth;
 		canvasHeight = gallerie3dCanvas.clientHeight;
 		ratio = canvasWidth/canvasHeight;
@@ -36,7 +36,7 @@
   		mouse = new THREE.Vector2()
 
 		/* IMAGE */
-		const gallerie = document.querySelectorAll("#gallerie3dSource img");
+		const gallerie = document.querySelectorAll("#circle3dImg img");
 
 		for (var i = 0; i < gallerie.length; i++) {
 			var planeWidth = (maxWidth/gallerie[i].getAttribute("data-width"))*gallerie[i].getAttribute("data-height");
@@ -69,7 +69,7 @@
 		
 
 		// RENDER
-		renderer = new THREE.WebGLRenderer({antialias:true, canvas:gallerie3d});
+		renderer = new THREE.WebGLRenderer({antialias:true, canvas:circle3dCanvas});
 		renderer.setSize(canvasWidth, canvasHeight );
 		renderer.domElement.addEventListener('mousemove', onClick, false);
 		window.addEventListener( 'resize', onWindowResize );
