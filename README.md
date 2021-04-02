@@ -5,17 +5,16 @@ Transform a simple images list in a 3D gallery. No complex parameter, no js modi
   Circle.js is based on THREE JS.
 </p>
 <p><img src="circle-capture.jpg" /></p>
-<h2>Démo</h2>
+
+## Démo
 <a href="http://basical.fr/test/3d/circle/exemple.html">Exemple of a simple 3D gallery</a>
 
 ## Features
-<ul>
-  <li>Transform basic img blocks into 3D gallery</li>
-  <li>100% responsive</li>
-  <li>Customizable background color </li>
-  <li>Only horizontal images for the moment</li>
-  <li>No GIF compatibilty</li>
-  </ul>
+* Transform basic img blocks into 3D gallery
+* 100% responsive
+* Customizable background color
+* Only horizontal images for the moment
+* No GIF compatibilty
   
 ## Browser support
 <p>Circle.js supports all browsers in her last version : Chrome, Firefox, Edge.</p>
