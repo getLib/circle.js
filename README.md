@@ -28,6 +28,7 @@ You can also directly download lightgallery from GitHub.
 
 ## Create your 3D Gallery
 First of all create the images list. Create a `div #circle3dImg` and add all your image in.
+You can place it where you want, this block will be hide.
 You need to specify the width `data-width` and height `data-height` of each image.
 ```html
 <div id="circle3dImg">
@@ -36,4 +37,10 @@ You need to specify the width `data-width` and height `data-height` of each imag
 <img data-width="1000" data-height="750" src="gallerie/img3.webp" />
 <img data-width="800" data-height="600" src="gallerie/img4.webp" />
 </div>
+```
+### Add your canvas
+After you will place your canvas block `canvas #circle3dCanvas`. Your 3D gallery will be print there.
+You can define the background-color in the `data-background` parameter.
+```html
+<canvas id="circle3dCanvas" data-background="#fff"></canvas>
 ```
