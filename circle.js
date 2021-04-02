@@ -13,6 +13,7 @@
 	init();
 	animate();
 
+
 	function init(){
 
 		gallerie3dCanvas = document.querySelector("#gallerie3d");
@@ -35,7 +36,7 @@
   		mouse = new THREE.Vector2()
 
 		/* IMAGE */
-		const gallerie = document.querySelectorAll(".gallerieImage");
+		const gallerie = document.querySelectorAll("#gallerie3dSource img");
 
 		for (var i = 0; i < gallerie.length; i++) {
 			var planeWidth = (maxWidth/gallerie[i].getAttribute("data-width"))*gallerie[i].getAttribute("data-height");
@@ -81,8 +82,8 @@
 		controls.rotateSpeed = 0.20;
 		if(ratio<=1) controls.rotateSpeed = 0.40;
 		controls.autoRotateSpeed = 0.40;
-		controls.maxPolarAngle = Math.PI/1.90;
-		controls.minPolarAngle = Math.PI/2.10;
+		controls.maxPolarAngle = Math.PI/1.95;
+		controls.minPolarAngle = Math.PI/2.05;
 		
 	}
 
@@ -134,17 +135,6 @@
 			});
 		}
 
-		if(linksOver==1){
-			if(controls.autoRotateSpeed < 50) controls.autoRotateSpeed += 0.4;
-			if(fogFactor<0.005) fogFactor+=0.00002;
-			scene.fog = new THREE.FogExp2(bgcolor, fogFactor );
-		}
-		else{
-			if(controls.autoRotateSpeed > 0.30) controls.autoRotateSpeed -= 0.8;
-			if(controls.autoRotateSpeed < 0.30) controls.autoRotateSpeed = 0.30;
-			if(fogFactor > 0.0015) fogFactor -= 0.00002;
-			scene.fog = new THREE.FogExp2(bgcolor, fogFactor );
-		}
 		
 		requestAnimationFrame( animate );
 		material.needsUpdate = true;
