@@ -13,3 +13,5 @@ Transform a simple images list in a 3D gallery. No complex parameter, no js modi
   <li>Only horizontal images for the moment</li>
   <li>No GIF compatibilty</li>
   </ul>
+<h2>Browser support</h2>
+<p>Circle.js supports all browsers in her last version : Chrome, Firefox, Edge. 
