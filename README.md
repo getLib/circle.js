@@ -25,8 +25,8 @@ Transform a simple images list in a 3D gallery. No complex parameter, no js modi
 </ul>
 <h3>Download from GitHub</h3>
 <p>You can also directly download lightgallery from GitHub.</p>
-<h3>Include CSS and Javascript</h3>
-<p>First of all create the images list</p>
+<h3>Create your 3D Gallery</h3>
+<p>First of all create the images list. Create a div #circle3dImg and add all your image in.</p>
 <code>
 <div id="circle3dImg">
 	<img data-width="1200" data-height="900" src="gallerie/img1.webp" />
