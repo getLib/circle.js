@@ -1,5 +1,5 @@
 # circle.js
 
-Transform a images list in a simple 3D gallery. No complex parameter, no js modification.<br/>
-<img src="circle-capture.png" />
+<p>Transform a images list in a simple 3D gallery. No complex parameter, no js modification.</p>
+<p><img src="circle-capture.png" /></p>
 <h2>Test</h2>
