@@ -27,4 +27,12 @@ Circle.js supports all browsers in her last version : Chrome, Firefox, Edge.
 You can also directly download lightgallery from GitHub.
 
 ## Create your 3D Gallery
-First of all create the images list. Create a div #circle3dImg and add all your image in.
+First of all create the images list. Create a `div #circle3dImg` and add all your image in.
+```html
+<div id="circle3dImg">
+	<img data-width="1200" data-height="900" src="gallerie/img1.webp" />
+	<img data-width="1200" data-height="900" src="gallerie/img2.png" />
+	<img data-width="1000" data-height="750" src="gallerie/img3.webp" />
+	<img data-width="800" data-height="600" src="gallerie/img4.webp" />
+</div>
+```
