@@ -18,5 +18,9 @@ Circle.js is based on THREE JS.
 <h2>Browser support</h2>
 <p>Circle.js supports all browsers in her last version : Chrome, Firefox, Edge.</p>
 <h2>Installation</h2>
+<h3>CDN</h3>
+https://cdn.jsdelivr.net/gh/getLib/circle.js@e50cd6ba5471acdb25a098038998fc228b55aa05/circle.min.js
+https://cdn.jsdelivr.net/gh/getLib/circle.js@e50cd6ba5471acdb25a098038998fc228b55aa05/circle.css
+
 <h3>Download from GitHub</h3>
 <p>You can also directly download lightgallery from GitHub.</p>
