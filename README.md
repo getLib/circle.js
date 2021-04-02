@@ -1,6 +1,6 @@
 # Circle.js
 
-<p>**<a href="http://basical.fr/test/3d/circle/">A Free and Simple way for your 3D Gallery.</a>**</b><br/>
+<p><b><a href="http://basical.fr/test/3d/circle/">A Free and Simple way for your 3D Gallery.</a></b><br/>
 Transform a simple images list in a 3D gallery. No complex parameter, no js modification.<br/>
   Circle.js is based on THREE JS.
 </p>
