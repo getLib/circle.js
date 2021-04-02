@@ -29,7 +29,7 @@ You can also directly download Circle.js from GitHub.
 
 ## Create your 3D Gallery
 
-### List your images
+### 1) List your images
 First of all create the images list. Create a `div #circle3dImg` and add all your images inside.
 You can place this block where you want, it will be hide.
 You need to specify the original width `data-width` and original height `data-height` of each image.
@@ -41,7 +41,7 @@ You need to specify the original width `data-width` and original height `data-he
 <img data-width="800" data-height="600" src="gallerie/img4.webp" />
 </div>
 ```
-### Add your 3D canvas
+### 2) Add your 3D canvas
 Then you will place your canvas block `canvas #circle3dCanvas`. Your 3D gallery will be print there.
 You can place it where you want in page.
 Change the background-color with the `data-background` parameter.
@@ -55,7 +55,7 @@ Exemple :
 #circle3dCanvas{height:40vw !important;width:90vw !important;}
 ```
 
-### Final Touch
+### 3) Final Touch
 Add the Circle .js and .css files at the end of your page.
 ```html
 <link rel="stylesheet" href="circle.css">
