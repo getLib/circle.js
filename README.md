@@ -1,13 +1,13 @@
 # Circle.js
 
-<p><b><a href="http://basical.fr/test/3d/circle/">A Free and Simple way for your 3D Gallery.</a></b><br/>
+<p><b><a href="https://circle3dgallery.com/">A Free and Simple way for your 3D Gallery.</a></b><br/>
 Transform a simple images list in a 3D gallery. No complex parameter, no js modification.<br/>
 Circle.js is based on THREE JS.
 </p>
 <p><img src="circle-capture.jpg" /></p>
 
 ## Démo
-<a href="http://basical.fr/test/3d/circle/exemple.html">Exemple of a simple 3D gallery</a>
+<a href="https://circle3dgallery.com/exemple.html">Exemple of a simple 3D gallery</a>
 
 ## Features
 * Transform picture blocks into 3D gallery
