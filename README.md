@@ -26,6 +26,9 @@ Circle.js supports all last generation browsers : Chrome, Firefox, Edge.
 * CSS : https://cdn.jsdelivr.net/gh/getLib/circle.js@e50cd6ba5471acdb25a098038998fc228b55aa05/circle.css
 ### Download from GitHub
 You can also directly download Circle.js from GitHub.
+### Buy me a coffee
+If this plugin is free, you can still support me by offering me a coffee ;)<br/>
+<a href="https://www.buymeacoffee.com/circle3djs"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=circle3djs&button_colour=5F7FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"></a>
 
 ## Create your 3D Gallery
 
