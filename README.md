@@ -1,7 +1,7 @@
 # Circle.js
 
-<p><b><a href="https://circle3dgallery.com/">A Free and Simple way for your 3D Gallery.</a></b><br/>
-Transform a simple images list in a 3D gallery. No complex parameter, no js modification.<br/>
+<p><b><a href="https://circle3dgallery.com/">A Free and Simple way for a 3D Gallery on your website.</a></b><br/>
+Transform a simple images list in a 3D gallery. No complex parameter, no javascript modification.<br/>
 Circle.js is based on THREE JS.
 </p>
 <p><img src="circle-capture.jpg" /></p>
