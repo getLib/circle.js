@@ -13,7 +13,6 @@ Circle.js is based on THREE JS.
 * Transform picture blocks into 3D gallery
 * 100% responsive
 * Customizable background color
-* Only horizontal pictures for the moment
 * No GIF compatibilty
   
 ## Browser support
