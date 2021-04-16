@@ -23,7 +23,7 @@ Circle.js supports all last generation browsers : Chrome, Firefox, Edge.
 
 ### CDN
 * SCRIPT : https://cdn.jsdelivr.net/gh/getLib/circle.js@main/circle.min.js
-* CSS : https://cdn.jsdelivr.net/gh/getLib/circle.js@e50cd6ba5471acdb25a098038998fc228b55aa05/circle.css
+* CSS : https://cdn.jsdelivr.net/gh/getLib/circle.js@main/circle.css
 ### Download from GitHub
 You can also directly download Circle.js from GitHub.
 ### Buy me a coffee
