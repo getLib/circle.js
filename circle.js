@@ -45,7 +45,7 @@
 				var plane = new THREE.PlaneGeometry( planeWidth,maxHeight, 1 );
 			}
 			else{
-				var planeHeight = (maxWidth/gallerie[i].getAttribute("data-height"))*gallerie[i].getAttribute("data-height");
+				var planeHeight = (maxWidth/gallerie[i].getAttribute("data-width"))*gallerie[i].getAttribute("data-height");
 				var plane = new THREE.PlaneGeometry( maxWidth,planeHeight, 1 );
 			}
 			var sourceImage = gallerie[i].getAttribute("src");
