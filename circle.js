@@ -1,6 +1,6 @@
 	// VARIABLES //
 	var canvas, camera, scene, renderer, controls, raycaster, mouse, material;
-	var gallerie3dCanvas, canvasWidth, canvasHeight, rayon, maxWidth, bgcolor, ratio;
+	var gallerie3dCanvas, canvasWidth, canvasHeight, rayon, maxWidth, maxHeight, bgcolor, ratio;
 	var target = 0;
 	var fogFactor = 0.0015;
 	var timeOutFunctionId;
@@ -23,7 +23,8 @@
 		if(ratio>=1) rayon = canvasWidth/2;
 		else rayon = canvasWidth;
 
-		maxWidth= canvasHeight/4;
+		maxWidth= canvasWidth/4;
+		maxHeight = canvasHeight/4;
 		bgcolor = gallerie3dCanvas.getAttribute("data-background");
 
 		/* SCENE */
@@ -39,8 +40,14 @@
 		const gallerie = document.querySelectorAll("#circle3dImg img");
 
 		for (var i = 0; i < gallerie.length; i++) {
-			var planeWidth = (maxWidth/gallerie[i].getAttribute("data-width"))*gallerie[i].getAttribute("data-height");
-			var plane = new THREE.PlaneGeometry( maxWidth,planeWidth, 1 );
+			if(ratio>=1){
+				var planeWidth = (maxHeight/gallerie[i].getAttribute("data-height"))*gallerie[i].getAttribute("data-width");
+				var plane = new THREE.PlaneGeometry( planeWidth,maxHeight, 1 );
+			}
+			else{
+				var planeHeight = (maxWidth/gallerie[i].getAttribute("data-height"))*gallerie[i].getAttribute("data-height");
+				var plane = new THREE.PlaneGeometry( maxWidth,planeHeight, 1 );
+			}
 			var sourceImage = gallerie[i].getAttribute("src");
 			var texture = new THREE.TextureLoader().load(sourceImage,function(){});
 			material = new THREE.MeshBasicMaterial( {
