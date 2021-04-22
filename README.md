@@ -7,7 +7,7 @@ Circle.js is based on THREE JS.
 <p><img src="circle-capture.jpg" /></p>
 
 ## Démo
-<a href="https://circle3dgallery.com/exemple.html">Exemple of a simple 3D gallery</a>
+<a href="https://circle3dgallery.com/exemple.html">Example of a simple 3D gallery</a>
 
 ## Features
 * Transform picture blocks into 3D gallery
